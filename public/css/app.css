@@ -1,0 +1,103 @@
+.titulo {
+    color: #004949;
+}
+
+.footer {
+    background:#006666;
+    color:white;
+}
+
+.headerNav {
+    background:#006666;
+    color:white;
+}
+
+.nav-item a {
+    color:white;
+}
+
+.nav-item a:hover{
+    background-color:#669999;
+    color:white;
+}
+
+/*
+.nav-item a:visited{
+    background-color:#006666;
+    color:white;
+}
+ */
+
+
+.nav-item ul a{
+    background-color:#669999;
+    color:white;
+}
+
+.thumbnail {
+    /*background-color: #4d7e7e; */
+    margin-top:5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #669999;
+    border-radius: 10%;
+    margin-bottom: 5px;
+
+}
+
+.centrado {
+    text-align: center;
+}
+
+.cuadro-imagen img {
+     margin-top: 20px;
+     border-radius: 5%;
+}
+
+.zoom{
+        /* Aumentamos la anchura y altura durante 2 segundos */
+        transition: width 1.3s, height 1.3s, transform 1.3s;
+        -moz-transition: width 1.3s, height 1.3s, -moz-transform 1.3s;
+        -webkit-transition: width 1.3s, height 1.3s, -webkit-transform 1.3s;
+        -o-transition: width 1.3s, height 1.3s,-o-transform 1.3s;
+}
+.zoom:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tama単o con scale(2). */
+        transform : scale(1.2);
+        -moz-transform : scale(1.2);      /* Firefox */
+        -webkit-transform : scale(1.2);   /* Chrome - Safari */
+        -o-transform : scale(1.2);        /* Opera */
+}
+
+.blanco {
+    color:white;
+}
+
+
+.icono-contacto {
+    margin-right: 5px;
+}
+
+
+.margenTop-10 {
+    margin-top:10px;
+}
+
+.fondoAmarillo {
+    
+    margin-top: 10rem;
+    background-color: yellow;
+}
+
+.categoriasFooter {
+
+}
+
+.nav-item {
+    height: 25px;
+}
+
+.nav-item:hover {
+    height: 25px;
+}
